@@ -1,4 +1,5 @@
 #slide {
+    color: green;
     animation-duration: 3s;
     animation-name: slidein;
 }
