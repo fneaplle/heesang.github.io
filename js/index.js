@@ -14,6 +14,6 @@ for (var i = 0; i < FrontTag.length; i++) {
     };
 
     FrontTag.item(i).onclick = (event) => {
-        location.href = "./html/heesang.html"
+        location.href = `./html/${event.target.id}.html`
     };
 }
